@@ -3,9 +3,6 @@ import Book from './modules/Book.js';
 import Store from './modules/Store.js';
 import displayDate from './modules/time.js';
 
-// const luxon = require('luxon');
-
-// Event: Display Books
 document.addEventListener('DOMContentLoaded', UI.showBooks);
 
 // Event: Add a Book
@@ -70,8 +67,4 @@ contact.addEventListener('click', () => {
   myBooks.style.display = 'none';
 });
 
-// const nav = document.querySelector('nav');
-// const date = luxon.DateTime.fromISO('2022-12-15T00:00:00');
-
-// nav.prepend(date.toLocaleString(luxon.DateTime.DATE_MED));
 setInterval(displayDate, 1000);
