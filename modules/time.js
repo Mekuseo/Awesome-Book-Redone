@@ -1,4 +1,4 @@
-import { DateTime } from 'luxon/src/luxon.js';
+import { DateTime } from '../src/luxon.js';
 
 const displayDate = () => {
   const d = DateTime.now();
@@ -7,4 +7,5 @@ const displayDate = () => {
   };
   document.getElementById('time').innerHTML = d.setLocale('en-US').toLocaleString(f);
 };
+
 export default displayDate;
