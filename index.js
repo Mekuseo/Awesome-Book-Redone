@@ -3,7 +3,7 @@ import Book from './modules/Book.js';
 import Store from './modules/Store.js';
 import displayDate from './modules/time.js';
 
-const luxon = require('luxon');
+const luxon = require('luxon'); 
 
 // Event: Display Books
 document.addEventListener('DOMContentLoaded', UI.showBooks);
